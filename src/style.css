@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+body {
+  color: #444;
+  background-color: #f6f6f6;
+}
+
+.container {
+  max-width: 26rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.currency-info {
+  background-color: white;
+  border: 2px solid lightgray;
+  border-radius: 5px;
+  padding: 2rem;
+}
+
+.form-field {
+  display: flex;
+  align-items: baseline;
+}
+
+label {
+  margin-right: 1rem;
+}
+
+select {
+  flex: 1;
+  padding: 0.25rem;
+}

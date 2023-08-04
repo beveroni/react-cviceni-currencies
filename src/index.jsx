@@ -28,7 +28,7 @@ const App = () => {
             </select>
           </div>
         </form>
-        <Rate />
+        <Rate from={currency} />
       </div>
     </div>
   );
